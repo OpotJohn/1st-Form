@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>FORM</title>
+</head>
+<body>
+    <h2>REGISTRATION FORM</h2>
+    <fieldset>
+        <legend>IDENTIFICATION</legend>
+    <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <label for="email">E-mail address:</label><br>
+  <input type="email" id="email" name="email" value="example@email.com"><br><br>
+  <label for="mobile">Mobile number:</label><br>
+  <input type="tel" id="mobile" name="mobile" >
+  </fieldset>
+
+<fieldset>
+    <legend>PERSONAL INFO</legend>
+  <p>DATE OF BIRTH<br><br>
+  <input type="date" id="date of birth" name="date of birth">
+  </p>
+  <p>GENDER</p>
+  <select>
+  <option value="select">select</option>
+  <option value="female">FEMALE</option>
+  <option value="male">MALE</option>
+  <option value="custom">CUSTOM</option>
+  </select>
+  <p>MARITAL STATUS</p>
+  <input type="radio" id="married" name="marital status" value="MARRIED">
+  <label for="married">MARRIED</label><br>
+  <input type="radio" id="divorced" name="marital status" value="DIVORCED">
+  <label for="divorced">DIVORCED</label><br>
+  <input type="radio" id="single" name="marital status" value="SINGLE">
+  <label for="single">SINGLE</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>RESIDENCY</legend>
+  <input type="text" id="county" name="county"><br>
+  <label for="county">COUNTY</label><br><br>
+  <input type="text" id="subcounty" name="subcounty"><br>
+  <label for="subcounty">SUB-COUNTY</label><br><br>
+  <input type="text" id="ward" name="ward"><br>
+  <label for="ward">WARD</label><br><br>
+  <input type="text" id="box" name="box"><br>
+  <label for="box">P.O.BOX</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>QUALIFICATIONS</legend>
+    <p>EDUCATION LEVEL (upload certification)</p>
+    <select>
+  <option value="select">select</option>
+  <option value="diploma">DIPLOMA</option>
+  <option value="degree">DEGREE</option>
+  <option value="masters">MASTERS</option>
+  <option value="phd">PHD</option>
+    </select>
+  <label for="certificate">Select a file:</label>
+  <input type="file" id="certificate" name="certificate">
+    <p>PREVIOUS WORK FIELD<br>
+   (check all if you have worked in all)*
+    </p>
+  <input type="checkbox" id="academia" name="academia">
+  <label for="academia">ACADEMIA</label><br>
+  <input type="checkbox" id="industry" name="industry">
+  <label for="industry">INDUSTRY</label><br>
+  <input type="checkbox" id="finance" name="finance">
+  <label for="finance">FINANCE</label>
+  <label for="resume">upload resume:</label>
+  <input type="file" id="resume" name="resume">
+  </fieldset>
+  <input type="submit" value="Submit">
+</body>
+</html>
